@@ -1,9 +1,9 @@
-PWD d:/latex_book
+PWD d:/latex_book/����ѧϰ�����ʼ�
 INPUT f:/texlive/2020/texmf.cnf
 INPUT f:/texlive/2020/texmf-dist/web2c/texmf.cnf
 INPUT f:/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT d:/latex_book/机器学习基础笔记.tex
-OUTPUT d:/latex_book/机器学习基础笔记.log
+INPUT d:/latex_book/机器学习基础笔记/机器学习基础笔记.tex
+OUTPUT d:/latex_book/机器学习基础笔记/机器学习基础笔记.log
 INPUT f:/texlive/2020/texmf-dist/tex/latex/base/book.cls
 INPUT f:/texlive/2020/texmf-dist/tex/latex/base/book.cls
 INPUT f:/texlive/2020/texmf-dist/tex/latex/base/bk12.clo
@@ -112,9 +112,9 @@ INPUT f:/texlive/2020/texmf-dist/tex/latex/tools/indentfirst.sty
 INPUT f:/texlive/2020/texmf-dist/tex/latex/tools/indentfirst.sty
 INPUT f:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 INPUT f:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
-INPUT d:/latex_book/机器学习基础笔记.aux
-INPUT d:/latex_book/机器学习基础笔记.aux
-OUTPUT d:/latex_book/机器学习基础笔记.aux
+INPUT d:/latex_book/机器学习基础笔记/机器学习基础笔记.aux
+INPUT d:/latex_book/机器学习基础笔记/机器学习基础笔记.aux
+OUTPUT d:/latex_book/机器学习基础笔记/机器学习基础笔记.aux
 INPUT f:/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT f:/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT f:/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
@@ -131,14 +131,14 @@ INPUT f:/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
 INPUT f:/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
 INPUT f:/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 INPUT f:/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
-INPUT d:/latex_book/机器学习基础笔记.out
-INPUT d:/latex_book/机器学习基础笔记.out
-INPUT d:/latex_book/机器学习基础笔记.out
-INPUT d:/latex_book/机器学习基础笔记.out
-OUTPUT d:/latex_book/机器学习基础笔记.pdf
-INPUT d:/latex_book/机器学习基础笔记.out
-INPUT d:/latex_book/机器学习基础笔记.out
-OUTPUT d:/latex_book/机器学习基础笔记.out
+INPUT d:/latex_book/机器学习基础笔记/机器学习基础笔记.out
+INPUT d:/latex_book/机器学习基础笔记/机器学习基础笔记.out
+INPUT d:/latex_book/机器学习基础笔记/机器学习基础笔记.out
+INPUT d:/latex_book/机器学习基础笔记/机器学习基础笔记.out
+OUTPUT d:/latex_book/机器学习基础笔记/机器学习基础笔记.pdf
+INPUT d:/latex_book/机器学习基础笔记/机器学习基础笔记.out
+INPUT d:/latex_book/机器学习基础笔记/机器学习基础笔记.out
+OUTPUT d:/latex_book/机器学习基础笔记/机器学习基础笔记.out
 INPUT f:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT f:/texlive/2020/texmf-dist/tex/latex/cjk/texinput/UTF8/c70gbsn.fd
 INPUT f:/texlive/2020/texmf-dist/tex/latex/cjk/texinput/UTF8/c70gbsn.fd
@@ -171,8 +171,8 @@ INPUT f:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT f:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmsl12.tfm
 INPUT f:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT f:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT d:/latex_book/机器学习基础笔记.toc
-INPUT d:/latex_book/机器学习基础笔记.toc
+INPUT d:/latex_book/机器学习基础笔记/机器学习基础笔记.toc
+INPUT d:/latex_book/机器学习基础笔记/机器学习基础笔记.toc
 INPUT f:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT f:/texlive/2020/texmf-dist/fonts/tfm/arphic/gbsnu/gbsnu7e.tfm
 INPUT f:/texlive/2020/texmf-dist/fonts/tfm/arphic/gbsnu/gbsnu60.tfm
@@ -242,7 +242,7 @@ INPUT f:/texlive/2020/texmf-dist/fonts/tfm/arphic/gbsnu/gbsnu96.tfm
 INPUT f:/texlive/2020/texmf-dist/fonts/tfm/arphic/gbsnu/gbsnu79.tfm
 INPUT f:/texlive/2020/texmf-dist/fonts/tfm/arphic/gbsnu/gbsnu74.tfm
 INPUT f:/texlive/2020/texmf-dist/fonts/tfm/arphic/gbsnu/gbsnu94.tfm
-OUTPUT d:/latex_book/机器学习基础笔记.toc
+OUTPUT d:/latex_book/机器学习基础笔记/机器学习基础笔记.toc
 INPUT f:/texlive/2020/texmf-dist/fonts/tfm/arphic/gbsnu/gbsnu7e.tfm
 INPUT f:/texlive/2020/texmf-dist/fonts/tfm/arphic/gbsnu/gbsnu60.tfm
 INPUT f:/texlive/2020/texmf-dist/fonts/tfm/arphic/gbsnu/gbsnu5e.tfm
@@ -280,9 +280,9 @@ INPUT f:/texlive/2020/texmf-dist/fonts/tfm/arphic/gbsnu/gbsnu98.tfm
 INPUT f:/texlive/2020/texmf-dist/fonts/tfm/arphic/gbsnu/gbsnu76.tfm
 INPUT f:/texlive/2020/texmf-dist/fonts/tfm/arphic/gbsnu/gbsnu63.tfm
 INPUT f:/texlive/2020/texmf-dist/fonts/tfm/arphic/gbsnu/gbsnu78.tfm
-INPUT d:/latex_book/1_1.jpg
-INPUT d:/latex_book/1_1.jpg
-INPUT d:/latex_book/1_1.jpg
+INPUT d:/latex_book/机器学习基础笔记/1_1.jpg
+INPUT d:/latex_book/机器学习基础笔记/1_1.jpg
+INPUT d:/latex_book/机器学习基础笔记/1_1.jpg
 INPUT f:/texlive/2020/texmf-dist/fonts/tfm/arphic/gbsnu/gbsnu83.tfm
 INPUT f:/texlive/2020/texmf-dist/fonts/tfm/arphic/gbsnu/gbsnu6a.tfm
 INPUT f:/texlive/2020/texmf-dist/fonts/tfm/arphic/gbsnu/gbsnu50.tfm
@@ -371,9 +371,9 @@ INPUT f:/texlive/2020/texmf-dist/fonts/tfm/arphic/gbsnu/gbsnu7b.tfm
 INPUT f:/texlive/2020/texmf-dist/fonts/tfm/arphic/gbsnu/gbsnu68.tfm
 INPUT f:/texlive/2020/texmf-dist/fonts/tfm/arphic/gbsnu/gbsnu6a.tfm
 INPUT f:/texlive/2020/texmf-dist/fonts/tfm/arphic/gbsnu/gbsnu57.tfm
-INPUT d:/latex_book/6_1.jpg
-INPUT d:/latex_book/6_1.jpg
-INPUT d:/latex_book/6_1.jpg
+INPUT d:/latex_book/机器学习基础笔记/6_1.jpg
+INPUT d:/latex_book/机器学习基础笔记/6_1.jpg
+INPUT d:/latex_book/机器学习基础笔记/6_1.jpg
 INPUT f:/texlive/2020/texmf-dist/fonts/tfm/arphic/gbsnu/gbsnu5b.tfm
 INPUT f:/texlive/2020/texmf-dist/fonts/tfm/arphic/gbsnu/gbsnu4e.tfm
 INPUT f:/texlive/2020/texmf-dist/fonts/tfm/arphic/gbsnu/gbsnu90.tfm
@@ -387,12 +387,12 @@ INPUT f:/texlive/2020/texmf-dist/fonts/tfm/arphic/gbsnu/gbsnu8f.tfm
 INPUT f:/texlive/2020/texmf-dist/fonts/tfm/arphic/gbsnu/gbsnu56.tfm
 INPUT f:/texlive/2020/texmf-dist/fonts/tfm/arphic/gbsnu/gbsnu5f.tfm
 INPUT f:/texlive/2020/texmf-dist/fonts/tfm/arphic/gbsnu/gbsnu66.tfm
-INPUT d:/latex_book/7_1.jpg
-INPUT d:/latex_book/7_1.jpg
-INPUT d:/latex_book/7_1.jpg
-INPUT d:/latex_book/7_2.jpg
-INPUT d:/latex_book/7_2.jpg
-INPUT d:/latex_book/7_2.jpg
+INPUT d:/latex_book/机器学习基础笔记/7_1.jpg
+INPUT d:/latex_book/机器学习基础笔记/7_1.jpg
+INPUT d:/latex_book/机器学习基础笔记/7_1.jpg
+INPUT d:/latex_book/机器学习基础笔记/7_2.jpg
+INPUT d:/latex_book/机器学习基础笔记/7_2.jpg
+INPUT d:/latex_book/机器学习基础笔记/7_2.jpg
 INPUT f:/texlive/2020/texmf-dist/fonts/tfm/arphic/gbsnu/gbsnu56.tfm
 INPUT f:/texlive/2020/texmf-dist/fonts/tfm/arphic/gbsnu/gbsnu82.tfm
 INPUT f:/texlive/2020/texmf-dist/fonts/tfm/arphic/gbsnu/gbsnu9a.tfm
@@ -407,9 +407,9 @@ INPUT f:/texlive/2020/texmf-dist/fonts/tfm/arphic/gbsnu/gbsnu85.tfm
 INPUT f:/texlive/2020/texmf-dist/fonts/tfm/arphic/gbsnu/gbsnu96.tfm
 INPUT f:/texlive/2020/texmf-dist/fonts/tfm/arphic/gbsnu/gbsnu79.tfm
 INPUT f:/texlive/2020/texmf-dist/fonts/tfm/arphic/gbsnu/gbsnu74.tfm
-INPUT d:/latex_book/8_1.jpg
-INPUT d:/latex_book/8_1.jpg
-INPUT d:/latex_book/8_1.jpg
+INPUT d:/latex_book/机器学习基础笔记/8_1.jpg
+INPUT d:/latex_book/机器学习基础笔记/8_1.jpg
+INPUT d:/latex_book/机器学习基础笔记/8_1.jpg
 INPUT f:/texlive/2020/texmf-dist/fonts/tfm/arphic/gbsnu/gbsnu90.tfm
 INPUT f:/texlive/2020/texmf-dist/fonts/tfm/arphic/gbsnu/gbsnu89.tfm
 INPUT f:/texlive/2020/texmf-dist/fonts/tfm/arphic/gbsnu/gbsnu5e.tfm
@@ -424,13 +424,13 @@ INPUT f:/texlive/2020/texmf-dist/fonts/tfm/arphic/gbsnu/gbsnu5e.tfm
 INPUT f:/texlive/2020/texmf-dist/fonts/tfm/arphic/gbsnu/gbsnu72.tfm
 INPUT f:/texlive/2020/texmf-dist/fonts/tfm/arphic/gbsnu/gbsnu03.tfm
 INPUT f:/texlive/2020/texmf-dist/fonts/tfm/arphic/gbsnu/gbsnu63.tfm
-INPUT d:/latex_book/9_1.jpg
-INPUT d:/latex_book/9_1.jpg
-INPUT d:/latex_book/9_1.jpg
+INPUT d:/latex_book/机器学习基础笔记/9_1.jpg
+INPUT d:/latex_book/机器学习基础笔记/9_1.jpg
+INPUT d:/latex_book/机器学习基础笔记/9_1.jpg
 INPUT f:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbxti10.tfm
-INPUT d:/latex_book/机器学习基础笔记.aux
-INPUT d:/latex_book/机器学习基础笔记.out
-INPUT d:/latex_book/机器学习基础笔记.out
+INPUT d:/latex_book/机器学习基础笔记/机器学习基础笔记.aux
+INPUT d:/latex_book/机器学习基础笔记/机器学习基础笔记.out
+INPUT d:/latex_book/机器学习基础笔记/机器学习基础笔记.out
 INPUT f:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT f:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb
 INPUT f:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb
