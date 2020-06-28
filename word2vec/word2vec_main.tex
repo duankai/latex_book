@@ -1,0 +1,47 @@
+\documentclass[a4paper,12pt]{book}
+\usepackage{CJKutf8}
+\usepackage{titlesec}
+\usepackage{graphicx} 
+\usepackage{subfigure}
+\usepackage{amsbsy}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{array}
+\usepackage[colorlinks,linkcolor=blue]{hyperref}
+\usepackage{enumitem}
+% \usepackage[hyperref, UTF8]{ctex}
+\newtheorem{definition}{Definition}
+
+
+\begin{CJK*}{UTF8}{gbsn}
+    %%*****************文本设置********************
+    \RequirePackage{indentfirst}
+    \setlength{\parindent}{2em}
+    %% 行距
+    \linespread{1.3}
+    \selectfont
+    % 页面顶行空白
+    \setlength{\topskip}{5ex}
+    % 段间距
+    \setlength{\parskip}{1ex}
+    %item 的缩进%
+    \setlength{\itemindent}{2em}
+    %%********************************************
+    
+
+    \begin{document}
+    \title{Word2vec笔记}
+    \author{Kevin}
+    \date{2020-06-28}
+    \maketitle
+
+    \newpage
+    \tableofcontents
+    
+    \input{word2vec1.tex}
+    \input{word2vec2.tex}
+
+    \chapter{next}
+
+\end{CJK*}
+\end{document}

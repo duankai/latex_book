@@ -1,0 +1,48 @@
+\chapter{Word2Vec基本数学内容}
+\section{Sigmod 函数}
+Sigmod函数通常在二分类中应用。它将样本映射后投影在[0, 1]范围内，对应样本所属的类的概率。函数表达式如下所示：
+\begin{equation}
+    f(x) = \frac{1}{1+e^{-x}}
+\end{equation}
+
+具体的讨论可以参见：
+
+\href{http://blog.csdn.net/chunyun0716/article/details/51580342}{Logistic Function AND Softmax Function}
+
+\section{贝叶斯公式}
+\begin{equation}
+    P(A|B) = \frac{P(B|A)P(A)}{P(B)}
+\end{equation}
+
+可以参见贝叶斯分类等一系列文章：
+\begin{enumerate}
+    \item \href{http://blog.csdn.net/chunyun0716/article/details/51031055}{朴素贝叶斯分类}
+    \item \href{http://blog.csdn.net/chunyun0716/article/details/51058948}{朴素贝叶斯算法的后验概率最大化含义}
+    \item \href{http://blog.csdn.net/chunyun0716/article/details/51111864}{朴素贝叶斯法的参数估计}
+\end{enumerate}
+
+\section{Huffman 树和Huffman编码}
+下边这篇博客写的很详细了，这里简单引用一些基本知识：
+
+\href{http://blog.csdn.net/shuangde800/article/details/7341289}{哈夫曼树}
+
+
+定义哈夫曼树之前先说明几个与哈夫曼树有关的概念：
+
+\textbf{路径}： 树中一个结点到另一个结点之间的分支构成这两个结点之间的路径。
+
+\textbf{路径长度}：路径上的分枝数目称作路径长度。
+
+\textbf{树的路径长度}：从树根到每一个结点的路径长度之和。
+
+\textbf{结点的带权路径长度}：在一棵树中，如果其结点上附带有一个权值，通常把该结点的路径长度与该结点上的权值                                                     之积称为该结点的带权路径长度（weighted path length）
+
+\textbf{树的带权路径长度}：如果树中每个叶子上都带有一个权值，
+则把树中所有叶子的带权路径长度之和称为树的带权路径长度。
+
+一般来说，用$n(n>0)$个带权值的叶子来构造二叉树，
+限定二叉树中除了这n个叶子外只能出现度为2的结点。
+那么符合这样条件的二叉树往往可构造出许多颗，
+其中带权路径长度最小的二叉树就称为\textbf{哈夫曼树}或\textbf{最优二叉树}.
+
+\textbf{通过哈夫曼树来构造的编码称为哈弗曼编码(huffman code)}
