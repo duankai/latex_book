@@ -37,43 +37,57 @@
     \begin{python}
         seg_word_line = jieba.cut(line, cut_all = True)
     \end{python}
+    \item 将分词的结果作为模型的输入
+    \begin{python}
+        model = gensim.models.Word2Vec(
+            LineSentence(source_separated_words_file), 
+            size=200, window=5, min_count=5, alpha=0.02, 
+            workers=4)
+    \end{python}
+    \item 保存模型，方便以后调用，获得目标词的同义词
+    \begin{python}
+        similary_words = model.most_similar(w, topn=10)
+    \end{python}
 \end{enumerate}
-1.
-```python
 
-```
-2.将分词的结果作为模型的输入
-```python
-model = gensim.models.Word2Vec(LineSentence(source_separated_words_file), size=200, window=5, min_count=5, alpha=0.02, workers=4)
-```
-3.保存模型，方便以后调用，获得目标词的同义词
-```python
-similary_words = model.most_similar(w, topn=10)
-```
+\section{重要调参目标}
 
-## 五、重要调参目标
-
-&nbsp;&nbsp;&nbsp;&nbsp; 比较重要的参数：
-1. 训练数据的大小，当初只用了10万数据，训练出来的模型很不好，后边不断地将训练语料增加到800万，效果得到了明显的提升
-2. 向量的维度，这是词汇向量的维数，这个会影响到计算，理论上来说维数大一点会好。
-3. 学习速率
-4. 窗口大小
+比较重要的参数：
+\begin{itemize}
+    \item 训练数据的大小，当初只用了10万数据，训练出来的模型很不好，后边不断地将训练语料增加到800万，效果得到了明显的提升
+    \item 向量的维度，这是词汇向量的维数，这个会影响到计算，理论上来说维数大一点会好。
+    \item 学习速率
+    \item 窗口大小
+\end{itemize}
 
 在调参上，并没有花太多精力，因为目测结果还好，到时上线使用前再仔细调整。
 
-## 六、模型的实际效果
+\section{模型的实际效果}
+\begin{table}[h]
+    \centering  % 显示位置为中间
+    \caption{同义词}  % 表格标题
+    \label{table1}  % 用于索引表格的标签
+    %字母的个数对应列数，|代表分割线
+    % l代表左对齐，c代表居中，r代表右对齐
+    \begin{tabular}{|l|l|}  
+        \hline
+        目标词 & 同义词相关词 \\
+        \hline  % 表格的横线
+        尿     & 尿液,撒尿,尿急,尿尿有,尿到,内裤,尿意,小解,前列腺炎,小便 \\
+        \hline
+        痘痘   & 逗逗,豆豆,痘子,小痘,青春痘,红痘,长痘痘,粉刺,讽刺,白头\\
+        \hline
+        发冷   & 发烫,没力,忽冷忽热,时冷时热,小柴胡,头昏,嗜睡,38.9,头晕,发寒 \\
+        \hline
+        呼吸困难&气来,气紧,窒息,大气,透不过气,出不上,濒死,粗气,压气,心律不齐\\
+        \hline
+        恶心    &闷,力气,呕心,胀气,涨,不好受,不进,晕车,闷闷,精神\\
+        \hline
+    \end{tabular}
+\end{table}
 
-| 目标词        | 同义词相关词    | 
-| ------------- |:-------------| 
-| 尿      | 尿液,撒尿,尿急,尿尿有,尿到,内裤,尿意,小解,前列腺炎,小便 | 
-| 痘痘      | 逗逗,豆豆,痘子,小痘,青春痘,红痘,长痘痘,粉刺,讽刺,白头     |   
-| 发冷 | 发烫,没力,忽冷忽热,时冷时热,小柴胡,头昏,嗜睡,38.9,头晕,发寒      |   
-| 呼吸困难 | 气来,气紧,窒息,大气,透不过气,出不上,濒死,粗气,压气,心律不齐     |   
-| 恶心 | 闷,力气,呕心,胀气,涨,不好受,不进,晕车,闷闷,精神|   
-
-## 七、可以跑的CODE
-
-```python
+\section{可以跑的CODE}
+\begin{python}
 import codecs
 import jieba
 import gensim
@@ -157,7 +171,6 @@ if "__name__ == __main__()":
     build_model(source_separated_words_file, model_path)# if model file is exist, don't buile modl 
 
     model = load_models(model_path)
-    words = get_similar_words_str('头痛', model)
+    words = get_similar_words_str('headache', model)
     print(words)
-
-```
+\end{python}

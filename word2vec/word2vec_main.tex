@@ -10,6 +10,7 @@
 \usepackage[colorlinks,linkcolor=blue]{hyperref}
 \usepackage{enumitem}
 \usepackage{color}
+\usepackage{fontspec}
 \makeatletter
 \color{black}
 \let\default@color\current@color
@@ -17,7 +18,7 @@
 \usepackage{pythonhighlight}
 % \usepackage[hyperref, UTF8]{ctex}
 \newtheorem{definition}{Definition}
-
+\setmonofont{Monaco}
 
 \begin{CJK*}{UTF8}{gbsn}
     %%*****************文本设置********************
@@ -46,6 +47,7 @@
     \input{word2vec1.tex}
     \input{word2vec2.tex}
     \input{word2vec3.tex}
+    \input{word2vec4.tex}
     \chapter{next}
 
 \end{CJK*}
