@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.6.12)  28 JUN 2020 16:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.6.12)  29 JUN 2020 11:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -333,8 +333,52 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@inbox=\box51
 \enit@count@id=\count268
 \enitdp@description=\count269
+) (f:/texlive/2020/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
+ (f:/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-\c@definition=\count270
+Package color Info: Driver file: pdftex.def on input line 147.
+) (d:/latex_book/word2vec/pythonhighlight.sty (f:/texlive/2020/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count270
+\lst@gtempboxa=\box52
+\lst@token=\toks26
+\lst@length=\count271
+\lst@currlwidth=\dimen160
+\lst@column=\count272
+\lst@pos=\count273
+\lst@lostspace=\dimen161
+\lst@width=\dimen162
+\lst@newlines=\count274
+\lst@lineno=\count275
+\lst@maxwidth=\dimen163
+ (f:/texlive/2020/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count276
+\lst@skipnumbers=\count277
+\lst@framebox=\box53
+) (f:/texlive/2020/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+ (f:/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+ (f:/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 709.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+))
+\c@definition=\count278
  (f:/texlive/2020/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.bdg
 File: UTF8.bdg 2015/04/18 4.8.4
 ) (f:/texlive/2020/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
@@ -345,119 +389,112 @@ File: UTF8.chr 2015/04/18 4.8.4
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 ) (f:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count271
-\l__pdf_internal_box=\box52
+\l__kernel_color_stack_int=\count279
+\l__pdf_internal_box=\box54
 ) (d:/latex_book/word2vec/word2vec_main.aux)
 \openout1 = `word2vec_main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
  (f:/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count272
-\scratchdimen=\dimen160
-\scratchbox=\box53
-\nofMPsegments=\count273
-\nofMParguments=\count274
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count275
-\MPscratchDim=\dimen161
-\MPnumerator=\count276
-\makeMPintoPDFobject=\count277
-\everyMPtoPDFconversion=\toks27
+\scratchcounter=\count280
+\scratchdimen=\dimen164
+\scratchbox=\box55
+\nofMPsegments=\count281
+\nofMParguments=\count282
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count283
+\MPscratchDim=\dimen165
+\MPnumerator=\count284
+\makeMPintoPDFobject=\count285
+\everyMPtoPDFconversion=\toks28
 ) (f:/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (f:/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-\AtBeginShipoutBox=\box54
- (f:/texlive/2020/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
- (f:/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package color Info: Driver file: pdftex.def on input line 147.
-)
-Package hyperref Info: Link coloring ON on input line 32.
+\AtBeginShipoutBox=\box56
+Package hyperref Info: Link coloring ON on input line 37.
  (f:/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (f:/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
@@ -465,26 +502,27 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (f:/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count278
+\c@section@level=\count286
 )
-LaTeX Info: Redefining \ref on input line 32.
-LaTeX Info: Redefining \pageref on input line 32.
-LaTeX Info: Redefining \nameref on input line 32.
+LaTeX Info: Redefining \ref on input line 37.
+LaTeX Info: Redefining \pageref on input line 37.
+LaTeX Info: Redefining \nameref on input line 37.
  (d:/latex_book/word2vec/word2vec_main.out) (d:/latex_book/word2vec/word2vec_main.out)
 \@outlinefile=\write3
 \openout3 = `word2vec_main.out'.
 
-LaTeX Font Info:    Trying to load font information for C70+gbsn on input line 37.
+\c@lstlisting=\count287
+LaTeX Font Info:    Trying to load font information for C70+gbsn on input line 42.
  (f:/texlive/2020/texmf-dist/tex/latex/cjk/texinput/UTF8/c70gbsn.fd
 File: c70gbsn.fd 2015/04/18 4.8.4
 ) (f:/texlive/2020/texmf-dist/tex/latex/cjk/texinput/UTF8/c70gbsn.fdx
 File: c70gbsn.fdx 2015/04/18 4.8.4
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 37.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 42.
  (f:/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 37.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 42.
  (f:/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
@@ -519,7 +557,7 @@ Overfull \hbox (7.42703pt too wide) in paragraph at lines 28--43
 []\C70/gbsn/m/sl/12/8b Í \C70/gbsn/bx/n/12/54 ^^Q \C70/gbsn/m/n/12/91 Ï \C70/gbsn/bx/n/12/76 î \C70/gbsn/m/n/12/52 M \C70/gbsn/bx/n/12/5e 8 \C70/gbsn/m/n/12/75 ( \C70/gbsn/bx/n/12/76 „ \C70/gbsn/m/sl/12/67 	\OT1/cmr/m/n/12 2\C70/gbsn/bx/n/12/79 Í \C70/gbsn/m/n/12/88 h \C70/gbsn/bx/n/12/79 : \C70/gbsn/m/sl/12/65 ¹ \C70/gbsn/m/n/12/6c Õ \C70/gbsn/m/n/12/ff ^^L\OT1/cmr/m/n/12 One-hot rep-re-sen-ta-tion \C70/gbsn/bx/n/12/54 Œ\OT1/cmr/m/n/12 distributed
  []
 
-<2_1.jpg, id=286, 964.60374pt x 325.215pt>
+<2_1.jpg, id=301, 964.60374pt x 325.215pt>
 File: 2_1.jpg Graphic file (type jpg)
 <use 2_1.jpg>
 Package pdftex.def Info: 2_1.jpg  used on input line 46.
@@ -527,7 +565,7 @@ Package pdftex.def Info: 2_1.jpg  used on input line 46.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<2_2.jpg, id=289, 913.4125pt x 589.20125pt>
+<2_2.jpg, id=304, 913.4125pt x 589.20125pt>
 File: 2_2.jpg Graphic file (type jpg)
 <use 2_2.jpg>
 Package pdftex.def Info: 2_2.jpg  used on input line 57.
@@ -545,7 +583,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Underfull \vbox (badness 1817) has occurred while \output is active []
 
  [10 <d:/latex_book/word2vec/2_1.jpg>]
-<2_3.jpg, id=312, 821.0675pt x 555.07375pt>
+<2_3.jpg, id=327, 821.0675pt x 555.07375pt>
 File: 2_3.jpg Graphic file (type jpg)
 <use 2_3.jpg>
 Package pdftex.def Info: 2_3.jpg  used on input line 80.
@@ -559,7 +597,7 @@ Overfull \hbox (26.9105pt too wide) in paragraph at lines 86--91
 \C70/gbsn/m/n/12/88 h \C70/gbsn/bx/n/12/79 : \C70/gbsn/m/sl/12/67 C \C70/gbsn/m/n/12/50 < \C70/gbsn/m/n/12/30 ^^B\OT1/cmr/m/n/12 CBOW\C70/gbsn/bx/n/12/76 „ \C70/gbsn/bx/n/12/68 8 \C70/gbsn/bx/n/12/5f Ã \C70/gbsn/m/sl/12/51 … \C70/gbsn/m/sl/12/5b ¹ \C70/gbsn/bx/n/12/66 / \C70/gbsn/m/n/12/63 ¨ \C70/gbsn/m/sl/12/5b ü \C70/gbsn/m/sl/12/51 ú$\OML/cmm/m/it/12 p\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 w\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 context\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 w\OT1/cmr/m/n/12 ))$,\C70/gbsn/m/sl/12/51 v \C70/gbsn/bx/n/12/4e - \C70/gbsn/m/n/12/ff ^^L$\OML/cmm/m/it/12 context\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 w\OT1/cmr/m/n/12 )$\C70/gbsn/m/n/12/75 1\OT1/cmr/m/n/12 w\C70/gbsn/m/n/12/52 M
  []
 
-<2_4.jpg, id=314, 762.85pt x 663.47874pt>
+<2_4.jpg, id=329, 762.85pt x 663.47874pt>
 File: 2_4.jpg Graphic file (type jpg)
 <use 2_4.jpg>
 Package pdftex.def Info: 2_4.jpg  used on input line 94.
@@ -579,7 +617,7 @@ Underfull \vbox (badness 4181) has occurred while \output is active []
 Underfull \vbox (badness 1371) has occurred while \output is active []
 
  [13 <d:/latex_book/word2vec/2_4.jpg>]
-<3_1.jpg, id=349, 821.0675pt x 657.45625pt>
+<3_1.jpg, id=364, 821.0675pt x 657.45625pt>
 File: 3_1.jpg Graphic file (type jpg)
 <use 3_1.jpg>
 Package pdftex.def Info: 3_1.jpg  used on input line 166.
@@ -596,37 +634,62 @@ Overfull \hbox (7.6747pt too wide) detected at line 200
 []
  []
 
-[16]) [17] [18
+[16]) (d:/latex_book/word2vec/word2vec3.tex [17] [18
 
 ]
 Chapter 4.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 47.
-[19]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 47.
+<4_1.jpg, id=422, 598.235pt x 263.98625pt>
+File: 4_1.jpg Graphic file (type jpg)
+<use 4_1.jpg>
+Package pdftex.def Info: 4_1.jpg  used on input line 21.
+(pdftex.def)             Requested size: 341.43565pt x 170.71492pt.
+
+Overfull \hbox (8.8834pt too wide) in paragraph at lines 12--25
+[][] \OML/cmm/m/it/12 len\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 w[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; k \OT1/cmr/m/n/12 = 1\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 2\OML/cmm/m/it/12 ; [] ; N$\OT1/cmr/m/n/12 , \C70/gbsn/m/sl/12/51 v \C70/gbsn/bx/n/12/4e - \C70/gbsn/m/n/12/ff ^^L$\OML/cmm/m/it/12 w[]$\C70/gbsn/bx/n/12/66 / \C70/gbsn/m/sl/12/8b Í \C70/gbsn/m/sl/12/51 x$\OMS/cmsy/m/n/12 D$\C70/gbsn/bx/n/12/4e - \C70/gbsn/m/sl/12/76 „ \C70/gbsn/m/n/12/7b ,$\OML/cmm/m/it/12 j$\C70/gbsn/bx/n/12/4e * \C70/gbsn/m/sl/12/8b Í \C70/gbsn/m/n/12/ff ^^L \C70/gbsn/m/n/12/52 ^^Y \C70/gbsn/bx/n/12/4e å$\OMS/cmsy/m/n/12 f\OML/cmm/m/it/12 l[]\OMS/cmsy/m/n/12 g[]$\C70/gbsn/bx/n/12/4e :
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 5036) has occurred while \output is active []
+
+ [19] [20 <d:/latex_book/word2vec/4_1.jpg>]
+Overfull \hbox (24.95988pt too wide) detected at line 84
+[]
+ []
+
+[21]) [22]
+Chapter 5.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 52.
+[23
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 52.
  (d:/latex_book/word2vec/word2vec_main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 47.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 47.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 52.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 52.
 Package rerunfilecheck Info: File `word2vec_main.out' has not changed.
-(rerunfilecheck)             Checksum: D6022B0B2ACADA730DB65A03192F60B7;1797.
+(rerunfilecheck)             Checksum: 4C3D7DD99D887DA0AF00972826B2F31C;1989.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 47.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 52.
  ) 
 Here is how much of TeX's memory you used:
- 9904 strings out of 480608
- 139497 string characters out of 5907536
- 408112 words of memory out of 5000000
- 25271 multiletter control sequences out of 15000+600000
- 575937 words of font info for 182 fonts, out of 8000000 for 9000
+ 11855 strings out of 480608
+ 166355 string characters out of 5907536
+ 443522 words of memory out of 5000000
+ 27157 multiletter control sequences out of 15000+600000
+ 576734 words of font info for 185 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,16n,42p,751b,2489s stack positions out of 5000i,500n,10000p,200000b,80000s
-<f:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb><f:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><f:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><f:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><f:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><f:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><f:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><f:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><f:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib6.pfb><f:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb><f:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><f:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><f:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><f:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb><f:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><f:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu30.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu4e.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu4f.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu50.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu51.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu52.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu53.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu54.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu56.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu57.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu58.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu59.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5b.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5c.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5d.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5e.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5f.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu60.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu61.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu62.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu63.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu65.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu66.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu67.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu68.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu69.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu6a.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu6b.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu6c.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu6d.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu6e.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu6f.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu70.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu71.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu72.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu73.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu74.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu75.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu76.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu77.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu78.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu79.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu7a.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu7b.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu7c.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu7d.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu7e.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu7f.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu80.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu82.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu83.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu85.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu86.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu88.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu89.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu8a.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu8b.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu8d.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu8f.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu90.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu91.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu95.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu96.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu97.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu98.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu99.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu9a.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnuff.pfb>
-Output written on d:/latex_book/word2vec/word2vec_main.pdf (19 pages, 903080 bytes).
+ 36i,19n,50p,751b,2547s stack positions out of 5000i,500n,10000p,200000b,80000s
+<f:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb><f:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><f:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><f:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><f:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><f:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><f:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><f:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><f:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib6.pfb><f:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb><f:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><f:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><f:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><f:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb><f:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><f:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu30.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu4e.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu4f.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu50.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu51.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu52.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu53.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu54.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu56.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu57.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu58.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu59.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5b.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5c.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5d.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5e.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5f.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu60.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu61.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu62.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu63.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu65.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu66.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu67.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu68.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu69.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu6a.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu6b.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu6c.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu6d.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu6e.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu6f.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu70.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu71.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu72.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu73.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu74.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu75.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu76.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu77.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu78.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu79.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu7a.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu7b.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu7c.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu7d.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu7e.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu7f.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu80.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu81.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu82.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu83.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu85.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu86.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu88.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu89.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu8a.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu8b.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu8d.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu8f.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu90.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu91.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu94.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu95.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu96.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu97.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu98.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu99.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu9a.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu9e.pfb><f:/texlive/2020/texmf-dist/fonts/type1/arphic/gbsnu/gbsnuff.pfb>
+Output written on d:/latex_book/word2vec/word2vec_main.pdf (23 pages, 1129771 bytes).
 PDF statistics:
- 691 PDF objects out of 1000 (max. 8388607)
- 502 compressed objects within 6 object streams
- 85 named destinations out of 1000 (max. 500000)
- 458 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 764 PDF objects out of 1000 (max. 8388607)
+ 563 compressed objects within 6 object streams
+ 111 named destinations out of 1000 (max. 500000)
+ 499 words of extra memory for PDF output out of 10000 (max. 10000000)
 

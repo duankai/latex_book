@@ -1,0 +1,163 @@
+\chapter{Word2Vec训练同义词模型}
+\section{需求描述}
+业务需求的目标是识别出目标词汇的同义词和相关词汇，如下为部分目标词汇(主要用于医疗问诊)：
+\begin{itemize}
+    \item 尿
+    \item 痘痘
+    \item 发冷
+    \item 呼吸困难 
+    \item 恶心
+\end{itemize}
+
+数据源是若干im数据，那么这里我们选择google 的word2vec模型来训练同义词和相关词。
+
+\section{数据处理}
+
+数据处理考虑以下几个方面：
+\begin{enumerate}
+    \item 从hive中导出不同数据量的数据
+    \item 过滤无用的训练样本（例如字数少于5）
+    \item 准备自定义的词汇表
+    \item 准备停用词表
+\end{enumerate}
+
+\section{工具选择}
+
+选择python 的gensim库，由于先做预研，数据量不是很大,选择单机就好，
+暂时不考虑spark训练。后续生产环境计划上spark。
+\href{https://radimrehurek.com/gensim/models/word2vec.html}{详细的gensim中word2vec文档}
+
+上述文档有关工具的用法已经很详细了，就不多说。
+
+分词采用jieba。
+
+\section{模型训练步骤简述}
+\begin{enumerate}
+    \item 先做分词、去停用词处理
+    \begin{python}
+        seg_word_line = jieba.cut(line, cut_all = True)
+    \end{python}
+\end{enumerate}
+1.
+```python
+
+```
+2.将分词的结果作为模型的输入
+```python
+model = gensim.models.Word2Vec(LineSentence(source_separated_words_file), size=200, window=5, min_count=5, alpha=0.02, workers=4)
+```
+3.保存模型，方便以后调用，获得目标词的同义词
+```python
+similary_words = model.most_similar(w, topn=10)
+```
+
+## 五、重要调参目标
+
+&nbsp;&nbsp;&nbsp;&nbsp; 比较重要的参数：
+1. 训练数据的大小，当初只用了10万数据，训练出来的模型很不好，后边不断地将训练语料增加到800万，效果得到了明显的提升
+2. 向量的维度，这是词汇向量的维数，这个会影响到计算，理论上来说维数大一点会好。
+3. 学习速率
+4. 窗口大小
+
+在调参上，并没有花太多精力，因为目测结果还好，到时上线使用前再仔细调整。
+
+## 六、模型的实际效果
+
+| 目标词        | 同义词相关词    | 
+| ------------- |:-------------| 
+| 尿      | 尿液,撒尿,尿急,尿尿有,尿到,内裤,尿意,小解,前列腺炎,小便 | 
+| 痘痘      | 逗逗,豆豆,痘子,小痘,青春痘,红痘,长痘痘,粉刺,讽刺,白头     |   
+| 发冷 | 发烫,没力,忽冷忽热,时冷时热,小柴胡,头昏,嗜睡,38.9,头晕,发寒      |   
+| 呼吸困难 | 气来,气紧,窒息,大气,透不过气,出不上,濒死,粗气,压气,心律不齐     |   
+| 恶心 | 闷,力气,呕心,胀气,涨,不好受,不进,晕车,闷闷,精神|   
+
+## 七、可以跑的CODE
+
+```python
+import codecs
+import jieba
+import gensim
+from gensim.models.word2vec import LineSentence
+
+def read_source_file(source_file_name):
+    try:
+        file_reader = codecs.open(source_file_name, 'r', 'utf-8',errors="ignore")
+        lines = file_reader.readlines()
+        print("Read complete!")
+        file_reader.close()
+        return lines
+    except:
+        print("There are some errors while reading.")
+
+def write_file(target_file_name, content):
+    
+    file_write = codecs.open(target_file_name, 'w+', 'utf-8')
+    file_write.writelines(content)
+    print("Write sussfully!")
+    file_write.close()
+
+def separate_word(filename,user_dic_file, separated_file):
+    print("separate_word")
+    lines = read_source_file(filename)
+    #jieba.load_userdict(user_dic_file)
+    stopkey=[line.strip() for line in codecs.open('stopword_zh.txt','r','utf-8').readlines()]
+
+    output = codecs.open(separated_file, 'w', 'utf-8')
+    num = 0
+    for line in lines:
+        num = num + 1
+        if num% 10000 == 0:
+            print("Processing line number: " + str(num))
+        seg_word_line = jieba.cut(line, cut_all = True)
+        wordls = list(set(seg_word_line)-set(stopkey))
+        if len(wordls)>0:
+            word_line = ' '.join(wordls) + '\n'
+        output.write(word_line)
+    output.close()
+    return separated_file
+   
+
+def build_model(source_separated_words_file,model_path):
+
+    print("start building...",source_separated_words_file)
+    model = gensim.models.Word2Vec(LineSentence(source_separated_words_file), size=200, window=5, min_count=5, alpha=0.02, workers=4)       
+    model.save(model_path)
+    print("build successful!", model_path)
+    return model
+
+def get_similar_words_str(w, model, topn = 10):
+    result_words = get_similar_words_list(w, model)    
+    return str(result_words)
+
+
+def get_similar_words_list(w, model, topn = 10):
+    result_words = []
+    try:
+        similary_words = model.most_similar(w, topn=10)
+        print(similary_words)
+        for (word, similarity) in similary_words:
+            result_words.append(word)
+        print(result_words)
+    except:
+        print("There are some errors!" + w)
+        
+    return result_words
+
+def load_models(model_path):
+    return gensim.models.Word2Vec.load(model_path)
+
+if "__name__ == __main__()":
+    filename = "d:\\data\\dk_mainsuit_800w.txt" #source file
+    user_dic_file = "new_dict.txt" # user dic file
+    separated_file = "d:\\data\\dk_spe_file_20170216.txt" # separeted words file
+    model_path = "information_model0830" # model file
+    
+    #source_separated_words_file = separate_word(filename, user_dic_file, separated_file)
+    source_separated_words_file = separated_file    # if separated word file exist, don't separate_word again
+    build_model(source_separated_words_file, model_path)# if model file is exist, don't buile modl 
+
+    model = load_models(model_path)
+    words = get_similar_words_str('头痛', model)
+    print(words)
+
+```

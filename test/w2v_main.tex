@@ -10,11 +10,13 @@
 \usepackage[colorlinks,linkcolor=blue]{hyperref}
 \usepackage{enumitem}
 \usepackage{color}
+\usepackage{graphicx}
 \makeatletter
 \color{black}
 \let\default@color\current@color
 \makeatother
 \usepackage{pythonhighlight}
+%\RequirePackage[tocindentauto,tocfullflat]{tocstyle}
 % \usepackage[hyperref, UTF8]{ctex}
 \newtheorem{definition}{Definition}
 
@@ -43,10 +45,11 @@
     \newpage
     \tableofcontents
     
-    \input{word2vec1.tex}
-    \input{word2vec2.tex}
-    \input{word2vec3.tex}
     \chapter{next}
 
+    \begin{python}
+        def main():
+            return
+    \end{python}
 \end{CJK*}
 \end{document}

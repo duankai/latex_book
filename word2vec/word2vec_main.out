@@ -17,4 +17,7 @@
 \BOOKMARK [2][-]{subsection.3.3.2}{Skip-gram\152\041\127\213\166\204\166\356\150\007\121\375\145\160}{section.3.3}% 17
 \BOOKMARK [2][-]{subsection.3.3.3}{Skip-gram\152\041\127\213\166\204\143\250\133\374\217\307\172\013}{section.3.3}% 18
 \BOOKMARK [1][-]{section.3.4}{Word2Vec \166\204\221\315\160\271\123\302\200\003\145\207\163\056}{chapter.3}% 19
-\BOOKMARK [0][-]{chapter.4}{next}{}% 20
+\BOOKMARK [0][-]{chapter.4}{Negative Sampling\152\041\127\213}{}% 20
+\BOOKMARK [1][-]{section.4.1}{CBOW}{chapter.4}% 21
+\BOOKMARK [1][-]{section.4.2}{Skip-gram\152\041\127\213}{chapter.4}% 22
+\BOOKMARK [0][-]{chapter.5}{next}{}% 23
