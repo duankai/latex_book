@@ -1,0 +1,51 @@
+\chapter{Spark下的word2vec模型训练}
+
+\section{引言}
+前边一节介绍了Word2Vec模型训练同义词，那么在大数据量的情况下，我们自然想到了用spark来进行训练下面就介绍我们是如何实现spark上的模型训练。
+
+\section{分词}
+模型训练的输入是分好词的语料，那么就得实现spark上的分词。
+
+\begin{python}
+def split(jieba_list, iterator):
+    sentences = []
+    for i in iterator:
+        try:
+            seg_list = []
+            #out_str = ""
+            s = ""
+            for c in i:
+                if not c is None:
+                    s += c.encode('utf-8')
+            id = s.split("__")[0]
+            s = s.split("__")[1]
+            wordList = jieba.cut(s, cut_all=False)
+            for word in wordList:
+	            out_str += word
+	            out_str += " "
+		        sentences.append(out_str)
+        except:
+            continue
+    return sentences
+\end{python}
+
+\section{模型训练}
+
+这里，直接用分词后的rdd对象作为输入
+
+\begin{python}
+   word2vec = Word2Vec().setNumPartitions(50)
+   spark.sql("use jkgj_log")
+   df = spark.sql("select label1_name,label2_name from mid_dim_tag ")
+   df_list = df.collect()
+   spark.sparkContext.broadcast(df_list)
+
+   diagnosis_text_in = spark.sql("select main_suit,
+                        msg_content from diagnosis_text_in where pt>='20170101'")
+    
+   inp = diagnosis_text_in.rdd.repartition(1200)
+        .mapPartitions(lambda it: split(df_list,it))
+        .map(lambda row: row.split(" "))
+
+   model = word2vec.fit(inp)
+\end{python}

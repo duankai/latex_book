@@ -10,7 +10,7 @@
 \usepackage[colorlinks,linkcolor=blue]{hyperref}
 \usepackage{enumitem}
 \usepackage{color}
-\usepackage{fontspec}
+% \usepackage{fontspec}
 \makeatletter
 \color{black}
 \let\default@color\current@color
@@ -18,7 +18,8 @@
 \usepackage{pythonhighlight}
 % \usepackage[hyperref, UTF8]{ctex}
 \newtheorem{definition}{Definition}
-\setmonofont{Monaco}
+% \setmonofont{Monaco}
+% \setmonofont{Modern}
 
 \begin{CJK*}{UTF8}{gbsn}
     %%*****************文本设置********************
@@ -48,7 +49,17 @@
     \input{word2vec2.tex}
     \input{word2vec3.tex}
     \input{word2vec4.tex}
-    \chapter{next}
+    \input{word2vec5.tex}
+
+    \chapter{Word2Vec 的重点参考文献}
+    \begin{enumerate}
+        \item \href{http://arxiv.org/pdf/1301.3781v3.pdf}{Efficient Estimation of Word Representations in Vector Spaceh. }
+        \item \href{https://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf}{Distributed Representations ofWords and Phrases and their Compositionality}
+        \item \href{http://static.googleusercontent.com/media/research.google.com/zh-CN//pubs/archive/44931.pdf}{Exploiting Similarities among Languages for Machine Translation }
+        \item \href{http://blog.csdn.net/itplus/article/details/37969979}{基于 Hierarchical Softmax 的模型}
+        \item \href{http://www.cnblogs.com/neopenx/p/4571996.html}{Word2Vec源码解析}
+        \item \href{http://blog.csdn.net/zhoubl668/article/details/24319529}{word2vec中关于霍夫曼树的应用原理}
+    \end{enumerate}
 
 \end{CJK*}
 \end{document}
