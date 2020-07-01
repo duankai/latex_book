@@ -1,0 +1,68 @@
+\documentclass[a4paper,12pt]{book}
+\usepackage{CJKutf8}
+\usepackage{titlesec}
+\usepackage{graphicx} 
+\usepackage{subfigure}
+\usepackage{amsbsy}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{array}
+\usepackage[colorlinks,linkcolor=blue]{hyperref}
+\usepackage{enumitem}
+\usepackage{color}
+% \usepackage{fontspec}
+\makeatletter
+\color{black}
+\let\default@color\current@color
+\makeatother
+\usepackage{pythonhighlight}
+% \usepackage[hyperref, UTF8]{ctex}
+\newtheorem{definition}{Definition}
+% \setmonofont{Monaco}
+% \setmonofont{Modern}
+
+\begin{CJK*}{UTF8}{gbsn}
+    %%*****************文本设置********************
+    \RequirePackage{indentfirst}
+    \setlength{\parindent}{2em}
+    %% 行距
+    \linespread{1.3}
+    \selectfont
+    % 页面顶行空白
+    \setlength{\topskip}{5ex}
+    % 段间距
+    \setlength{\parskip}{1ex}
+    %item 的缩进%
+    \setlength{\itemindent}{2em}
+    %%********************************************
+    
+    \begin{document}
+    \title{Word2vec笔记}
+    \author{Kevin}
+    \date{2020-07-01}
+    \maketitle
+
+    \newpage
+    \tableofcontents
+    
+    \input{classify.tex}
+    % \input{word2vec1.tex}
+    % \input{word2vec2.tex}
+    % \input{word2vec3.tex}
+    % \input{word2vec4.tex}
+    % \input{word2vec5.tex}
+
+    % \chapter{Word2Vec 的重点参考文献}
+    % \begin{enumerate}
+    %     \item \href{http://arxiv.org/pdf/1301.3781v3.pdf}{Efficient Estimation of Word Representations in Vector Spaceh. }
+    %     \item \href{https://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf}{Distributed Representations ofWords and Phrases and their Compositionality}
+    %     \item \href{http://static.googleusercontent.com/media/research.google.com/zh-CN//pubs/archive/44931.pdf}{Exploiting Similarities among Languages for Machine Translation }
+    %     \item \href{http://blog.csdn.net/itplus/article/details/37969979}{基于 Hierarchical Softmax 的模型}
+    %     \item \href{http://www.cnblogs.com/neopenx/p/4571996.html}{Word2Vec源码解析}
+    %     \item \href{http://blog.csdn.net/zhoubl668/article/details/24319529}{word2vec中关于霍夫曼树的应用原理}
+    % \end{enumerate}
+
+    \chapter{next}
+    
+\end{CJK*}
+\end{document}
